@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.titin.quisberita.berita3">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="364dp"
+        android:layout_height="238dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aremania" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="343dp"
+        android:layout_height="123dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="236dp"
+        android:text="Kericuhan Terjadi di Laga Arema FC vs Persebaya Surabaya di Pekan 24 Liga 1 2018 "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="348dp"
+        android:layout_height="129dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Hot News, Jakarta - Top 3 news, Kericuhan Terjadi di Laga Arema FC vs Persebaya Surabaya di Pekan 24 Liga 1 2018 di Stadion Kanjuruhan, Kabupaten Malang, Sabtu (6/10/2018). Keadaan ini membuat petinggi Arema FC berkeluh kesah akan perilaku suporter dalam laga Arema FC vs Persebaya Surabaya itu. Suporter memperlihatkan sikap tak terpuji saat Arema FC menjamu Persebaya Surabaya. Sebelum pertandingan, seorang dirijen Aremania turun ke lapangan untuk mendekati tim lawan. Dalam rekaman video yang beredar di media sosial (medsos), dirijen itu terlihat merobek-robek kertas di depan para pemain tim tamu.  "
+        android:textColor="@android:color/background_dark"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.titin.quisberita.berita2">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="355dp"
+        android:layout_height="244dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ratna" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="336dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="236dp"
+        android:text="Pusaran Kasus Hoaks Terbaik Ratna Sarumpaet"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="346dp"
+        android:layout_height="196dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text='Hot News, Jakarta - Top 2 news, Polda Metro Jaya resmi menahan Ratna Sarumpaet terkait penyebaran berita bohong atau hoaks soal penganiayaannya. Dia ditahan di rutan Mapolda Metro Jaya selama 20 hari ke depan.Polisi khawatir, dia akan melarikan diri ketika tidak ditahan. Apalagi, saat ditangkap, dia sedang berada di Bandara Soekarno Hatta pada Kamis 4 Oktober malam saat hendak terbang ke Chile."Kenapa dilakukan penahanan? Alasannya subjektivitas penyidik, jangan sampai melarikan diri," kata Kabid Humas Polda Metro Jaya, Kombes Raden Prabowo Argo Yuwono, di Mapolda Metro Jaya, Jumat 5 Oktober 2018 malam.Ratna dijerat Pasal 14 UU Nomor 1 tahun 1946 tentang Hukum Pidana. Dia juga disangka melanggar Pasal 28 ayat 2 UU ITE.'
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</android.support.constraint.ConstraintLayout>
